@@ -1,5 +1,106 @@
-h1 {
+
+
+/* common */
+
+body {
+  margin: 0;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  padding-bottom: 72px;
+}
+
+/* header */
+
+header {
+  background: #98605e;
+}
+
+header .container {
+  padding: 32px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .container div + div {
+  margin-left: 48px;
+}
+
+header .icon {
+  border-radius: 20%;
+  box-shadow: 0 0 2px 2px #fff;
+}
+
+header h1,p {
+  color: #fff;
+}
+
+header h1 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+/* main */
+
+main h1 {
   font-size: 24px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid #ddd;
+  text-align: center;
+  padding: 48px 0;
+}
+
+main .item {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+main .photo {
+ width: 400px;
+ height: 255px;
+ margin: 0 12px;
+ object-fit: cover;
+}
+
+main .illust {
+  width: 300px;
+  height: 300px;
+  margin: 0 28px;
+ }
+
+ main a {
+  align-self: flex-end;
+ }
+
+/* copyright */
+
+.copyright {
+    background: #e3acae;
+    padding: 16px 0;
+    text-align: center;
+  }
+
+.copyright small {
+  font-style: 20px;
+  color: #eee;
 }
