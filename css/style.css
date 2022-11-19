@@ -21,7 +21,7 @@ h2 {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -70,8 +70,9 @@ main h1 {
 
 main .item {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   margin: 0 auto;
+  overflow: scroll;
 }
 
 main .photo {
@@ -79,16 +80,18 @@ main .photo {
  height: 255px;
  margin: 0 12px;
  object-fit: cover;
+ flex-shrink: 0;
 }
 
 main .illust {
   width: 300px;
   height: 300px;
-  margin: 0 28px;
+  margin: 0 24px;
  }
 
- main a {
-  align-self: flex-end;
+ main .link {
+  text-align: right;
+  margin-top: 20px;
  }
 
 /* copyright */
